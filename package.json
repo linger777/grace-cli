@@ -1,0 +1,22 @@
+{
+  "name": "grace-cli",
+  "version": "1.0.0",
+  "description": "私有脚手架",
+  "main": "index.js",
+  "bin": {
+    "grace": "./bin/index.js",
+    "grace-create": "./bin/create.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Grace_Q",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "change-case": "^3.1.0",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.2"
+  }
+}
