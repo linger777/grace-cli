@@ -4,13 +4,18 @@
   "description": "私有脚手架",
   "main": "index.js",
   "bin": {
-    "grace": "./bin/index.js",
-    "grace-create": "./bin/create.js"
+    "grace": "bin/index.js",
+    "grace-create": "bin/create.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "node bin/create.js"
   },
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linger777/grace-cli"
+  },
   "author": "Grace_Q",
   "license": "ISC",
   "devDependencies": {
